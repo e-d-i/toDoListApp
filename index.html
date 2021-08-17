@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Todo List App</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="src/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/favicons/favicon-16x16.png">
+    <link rel="manifest" href="src/favicons/site.webmanifest">
+    <link rel="mask-icon" href="src/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="src/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-config" content="src/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="src/css/toDoList.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+
+  <body>
+
+    <main>
+      <div class="wrapper">
+        <header>
+          <h1 class="animate__animated animate__zoomInDown">TO DO LIST</h1>
+        </header>
+        <div>
+          <i class="fas fa-clipboard-list animate__animated animate__zoomInDown"></i>
+          <h2 class="animate__animated animate__zoomIn">Let's get things done today!</h2>
+          <p class="animate__animated animate__zoomInUp">Add todo</p>
+        </div>
+        <form class="todo-form animate__animated animate__zoomInUp">
+          <input class="todo-input" type="text" placeholder="E.g. build a website">
+          <button class="todo-btn" type="submit">
+            <i class="far fa-plus-square"></i>
+          </button>
+        </form>
+        <div class="todo-container animate__animated animate__zoomInUp">
+          <ul class="todo-list"></ul>
+        </div>
+      </div>
+    </main>
+
+    <script src="toDoList.js" defer></script>
+
+  </body>
+
+</html>
