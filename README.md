@@ -4,8 +4,8 @@ Building a To-Do-List App with local storage using HTML, CSS / Animate.css and J
 
 Features:
 
-Option to check or clear To-Dos.
-Active To-Dos are stored in local storage and will also be displayed after page load.  
+- Option to check or clear To-Dos.
+- Active To-Dos are stored in local storage and will also be displayed after page load.  
 
 For live preview check out following link:
 
